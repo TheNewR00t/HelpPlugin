@@ -46,7 +46,7 @@ namespace AyudaPlugin
 
         private async Task SendWebhook(string playerName)
         {
-            string webhookUrl = Plugin.Instance.Config.webhook;
+            string webhookUrl = Plugin.Instance.Config.Webhook;
 
             using (HttpClient client = new HttpClient())
             {

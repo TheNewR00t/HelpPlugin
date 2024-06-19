@@ -13,7 +13,7 @@ namespace AyudaPlugin
         public bool IsEnabled { get; set; } = true;
         public bool Debug { get; set; } = false;
         [Description("Put your discord weebhock here")]
-        public string webhook { get; set; } = "https://your-weebhock";
+        public string Webhook { get; set; } = "https://your-webhook";
         [Description("Message that appears to the staff when someone asks for help in scp")]
         public string helpMensaje { get; set; } = "Need help";
         [Description("Message that says a staff will be coming soon")]
