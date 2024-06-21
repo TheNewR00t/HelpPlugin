@@ -5,7 +5,7 @@ This plugin adds a command for users to ask staff within the server and discord 
 help_plugin:
   is_enabled: true
   debug: false
-  # Put your discord weebhock here
+  # Put your discord webhook here
   web_hock: 'https://your-weebhock'
   # Message that appears to the staff when someone asks for help in scp
   help_mensaje: 'Need help'
