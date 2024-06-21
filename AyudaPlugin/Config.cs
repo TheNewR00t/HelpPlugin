@@ -12,7 +12,7 @@ namespace AyudaPlugin
     {
         public bool IsEnabled { get; set; } = true;
         public bool Debug { get; set; } = false;
-        [Description("Put your discord weebhock here")]
+        [Description("Put your discord webhook here")]
         public string Webhook { get; set; } = "https://your-webhook";
         [Description("Message that appears to the staff when someone asks for help in scp")]
         public string helpMensaje { get; set; } = "Need help";
@@ -24,6 +24,7 @@ namespace AyudaPlugin
         public string DiscordText2 { get; set; } = "need help";
         [Description("")]
         public string CommandName { get; set; } = "Staff";
+        public bool EnableWebhook { get; set; } = true;
         public int SecondsOfMensaje { get; set; } = 6;
     }
 }

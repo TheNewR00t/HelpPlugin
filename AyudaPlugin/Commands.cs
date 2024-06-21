@@ -29,7 +29,7 @@ namespace AyudaPlugin
                     if (pl.ReferenceHub.serverRoles.RemoteAdmin)
                         pl.ShowHint($"{player.Nickname} {Plugin.Instance.Config.helpMensaje}", Plugin.Instance.Config.SecondsOfMensaje);
                 }
-
+                
                 ExecuteCoroutine(SendWebhookCoroutine(playerName));
                 response = $"{playerName} {Plugin.Instance.Config.Staff}";
                 return true;
